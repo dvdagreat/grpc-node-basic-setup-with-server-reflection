@@ -16,7 +16,7 @@ This project is a part of my youtube video where I implement a grpc setup with n
 ## Steps to run the project
 
 ```
-// >>> on windows, please run the command as per your OS
+// >>> for windows use below commands, for other OS, please adjust the commands as per OS
 // to start the server
 cd server; npm run start:dev
 
