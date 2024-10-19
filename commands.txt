@@ -1,0 +1,7 @@
+npm init -y
+
+npm i @grpc/grpc-js @grpc/proto-loader
+
+npm i -D nodemon
+
+npm i @grpc/reflection
