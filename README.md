@@ -26,4 +26,4 @@ cd client; npm run start:dev
 
 Refer my youtube video if you land directly onto this repo and do not know what to do
 
-View the youtube video: "youtube url will be updated after the video is uploaded"
+View the youtube video: https://www.youtube.com/watch?v=_fhxglapSbM
