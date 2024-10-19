@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package com.dvs;
+
+message AuthorModel {
+  int32 id = 1;
+  string name = 2; 
+}
+
+message GetAllAuthorsRequestType {
+  
+}
+
+message GetAllAuthorsResponseType {
+  repeated AuthorModel authors = 1;
+}
+
+message FindAuthorByIdRequestType {
+  int32 author_id = 1;
+}
+
+message FindAuthorByIdResponseType {
+  AuthorModel author = 1;
+}
+
+service AuthorService {
+  rpc getAllAuthors(GetAllAuthorsRequestType) returns (GetAllAuthorsResponseType);
+  rpc findAuthorById(FindAuthorByIdRequestType) returns (FindAuthorByIdResponseType);
+}
